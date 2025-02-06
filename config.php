@@ -1,8 +1,9 @@
 <?php
+define(constant_name: 'SITEURL', value: 'http://localhost/caps/');
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "beyond_session";
+$dbname = "beyond_session ";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
